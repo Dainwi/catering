@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <img className={styles.image} src={"/home.jpg"} alt="home" />
         <div className={styles.content}>
           <h1 className={styles.h1}>
             Best Catering Services Provider in Bokaro
