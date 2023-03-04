@@ -19,10 +19,10 @@ const Nav = () => {
           <a className={styles.a} href="#about">
             About
           </a>
-          <a className={styles.a} href="/">
+          <a className={styles.a} href="#menu">
             Menu
           </a>
-          <a className={styles.a} href="/">
+          <a className={styles.a} href="#contact">
             Contact Us
           </a>
         </li>
