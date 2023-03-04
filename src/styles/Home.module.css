@@ -34,18 +34,19 @@
 
 .button {
     margin-top: 1rem;
-    background-color: #e84949;
+    background-color: #dfd039;
+    ;
     padding: 0.8rem 2.3rem;
     color: white;
     font-size: 18px;
-    box-shadow: 5px 5px 7px 0px #00003f;
+    box-shadow: 5px 5px 7px 0 #00003f;
     position: relative;
     z-index: 1;
 }
 
 .button::before {
     content: "";
-    background-color: #1f1f1f;
+    background-color: #f89453;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,6 +62,8 @@
     transform: scaleX(1);
 }
 
-/* @media screen and (max-width: 768px) {
-
-} */
+@media screen and (max-width: 768px) {
+    .h1 {
+        font-size: 3rem;
+    }
+}
