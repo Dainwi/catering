@@ -1,14 +1,14 @@
 .section {
     margin: 1rem;
-    width: 100%;
+    width: auto;
     height: 100%;
-    /* padding: 4rem 0rem; */
+    padding: 2rem 0rem;
     background-image: url(/about-bg.jpg);
     background-size: cover;
 }
 
 .container {
-    padding: 3rem calc((100vw - 1300px) / 2);
+    padding: 2rem calc((100vw - 1300px) / 2);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 800px;
