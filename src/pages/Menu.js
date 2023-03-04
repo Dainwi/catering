@@ -7,14 +7,21 @@ const Menu = () => {
       id="menu"
       style={{ margin: "1rem", display: "flex", justifyContent: "center" }}
     >
-      <div className="container">
-        <Image
+      <div
+        className="container"
+        style={{
+          overflow: "hidden",
+          backgroundImage: 'url("/menu.jpg")',
+          height: "100vh",
+        }}
+      >
+        {/* <Image
           src={"/menu.jpg"}
           alt=""
           width="1000"
           height="1200"
-          style={{ overflow: "-moz-hidden-unscrollable" }}
-        />
+          style={{ overflow: "hidden" }}
+        /> */}
       </div>
     </section>
   );
