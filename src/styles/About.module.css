@@ -2,7 +2,7 @@
     margin: 1rem;
     width: 100%;
     height: 100%;
-    padding: 4rem 0rem;
+    /* padding: 4rem 0rem; */
     background-image: url(/about-bg.jpg);
     background-size: cover;
 }
