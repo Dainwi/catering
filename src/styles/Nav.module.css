@@ -20,6 +20,10 @@
     padding-left: 5px;
 }
 
+.li {
+    list-style: none;
+}
+
 .logo {
     font-size: 3rem;
 }
