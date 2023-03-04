@@ -4,6 +4,9 @@ import styles from "../styles/About.module.css";
 const About = () => {
   return (
     <section className={styles.section} id="about">
+      <h1 style={{ textAlign: "center", color: "#fff", fontSize: "3rem" }}>
+        About Sanjay’s Catering
+      </h1>
       <div className={styles.container}>
         <div className={styles.imageContainer}>
           <img className={styles.img} src="/about.jpg" alt="" />
