@@ -27,6 +27,8 @@
 .h3 {
     margin-bottom: 1rem;
     font-size: clamp(1.5rem, 6vw, 2rem);
+    color: white;
+    font-style: italic;
 }
 
 .p {
