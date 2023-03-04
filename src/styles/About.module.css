@@ -44,7 +44,6 @@
     align-items: center;
     line-height: 1.4;
     padding: 1rem 2rem;
-    margin-top: -13rem;
 }
 
 .img {
@@ -68,5 +67,9 @@
 
     .desc {
         margin-top: -9rem;
+    }
+
+    .imageContainer {
+        margin-top: -13rem;
     }
 }
