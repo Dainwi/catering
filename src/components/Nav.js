@@ -6,7 +6,7 @@ const Nav = () => {
 
   return (
     <nav className={styles.nav}>
-      <span className={styles.logo}>LOGO</span>
+      <img className={styles.logo} src={"/logo.png"} />
       <ul>
         <li
           className={active ? styles.closeNav : styles.li}
